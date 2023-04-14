@@ -1,0 +1,219 @@
+header{
+    padding: 0;
+    //預設padding(外圍邊界)才不會縮圖畫面跑版
+    margin: 0;
+}
+
+header{
+    background-color: rgb(117, 154, 177);
+    padding: 20px;
+    //預設padding(外圍邊界)才不會縮圖畫面跑版
+    margin: 0;
+}
+
+body{
+    background-color: rgb(117, 154, 177);
+}
+    
+
+
+.area1{
+    .picblock{
+        position: relative;
+        left: -6%;
+
+        h2{
+            text-align: center;
+        }
+    
+       
+        label{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: -5%;
+        } 
+        .emailblock{
+            
+            height: 24px;
+            width: 24%;
+            position: relative;
+            left: 40%;
+            padding-left: 3px;
+            padding-top: 2px;
+            background-color: #fff;
+            border-left: 20%;
+            border-radius: 3px;
+            .email_input{
+                position: relative;
+                left: 9px;
+            .btn{
+               background-color: #fff;
+               border:none;
+            }
+            .btn:hover{ //游標接觸到的回應
+                cursor: pointer;//會有手手
+                background-color: rgb(172, 168, 163);
+            }
+            .btn:active{
+                scale:0.95;//點擊後縮放
+            }
+            
+            }
+
+        }
+   
+    
+        .name-pwdblock{
+        
+            label{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: -8%;
+
+            }
+            .userblock{
+            height: 24px;
+            width: 24%;
+            padding-left: 3px;
+            padding-top: 2px;
+            background-color: #fff;
+            display: flex;
+            border-radius: 3px;
+            position: relative;
+            left: 40%;
+               .user_input{
+                position: absolute;
+                left: 15px;
+
+                                 
+                    .btn{
+                         background-color: #fff;
+                         border:none;
+                    }
+                    .btn:hover{ //游標接觸到的回應
+                         cursor: pointer;//會有手手
+                        background-color: rgb(172, 168, 163);
+                    }
+                    .btn:active{
+                     scale:0.95;//點擊後縮放
+                    }
+                }
+                
+
+            }
+        }
+
+        .pwdblock1{
+        
+            label{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: -8%;
+
+            }
+            .pwdblock{
+            height: 24px;
+            width: 24%;
+            padding-left: 3px;
+            padding-top: 2px;
+            background-color: #fff;
+            display: flex;
+            border-radius: 3px;//園角
+            position: relative;
+            left: 40%;
+               .pwd_input{
+                position: absolute;
+                left: 15px;
+
+                                 
+                    .btn{
+                         background-color: #fff;
+                         border:none;
+                    }
+                    .btn:hover{ //游標接觸到的回應
+                         cursor: pointer;//會有手手
+                        background-color: rgb(172, 168, 163);
+                    }
+                    .btn:active{
+                     scale:0.95;//點擊後縮放
+                    }
+                }
+                
+
+            }
+        }
+
+        .pwdblock2{
+        
+            label{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: -6%;
+
+            }
+            .pwdblock{
+            height: 24px;
+            width: 24%;
+            padding-left: 3px;
+            padding-top: 2px;
+            background-color: #fff;
+            display: flex;
+            border-radius: 3px;
+            position: relative;
+            left: 40%;
+               .pwd_input{
+                position: absolute;
+                left: 15px;
+
+                                 
+                    .btn{
+                         background-color: #fff;
+                         border:none;
+                    }
+                    .btn:hover{ //游標接觸到的回應
+                         cursor: pointer;//會有手手
+                        background-color: rgb(172, 168, 163);
+                    }
+                    .btn:active{
+                     scale:0.95;//點擊後縮放
+                    }
+                }
+                
+
+            }
+        }
+
+
+    }   
+
+    
+}
+
+.area2{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: -120px;
+    .btn{
+        background-color: #042e4f;
+        border:none;
+        color: #fff;
+        border-radius: 3px;
+   }
+   .btn:hover{ //游標接觸到的回應
+        cursor: pointer;//會有手手
+       background-color: rgb(172, 168, 163);
+   }
+   .btn:active{
+    scale:0.95;//點擊後縮放
+   }
+}
+

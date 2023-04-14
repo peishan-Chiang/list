@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(117, 154, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+*, *::before, * ::after {
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.area1 {
+  width: 300px;
+}
+
+.area1 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.area1 .emailblock .inputblock, .area1 .name-pwdblock .inputblock {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 3px;
+}
+.area1 .emailblock .q, .area1 .name-pwdblock .q {
+  position: relative;
+  left: 2px;
+}
+.area1 .emailblock label, .area1 .name-pwdblock label {
+  font-size: 12px;
+}
+.area1 .emailblock input, .area1 .name-pwdblock input {
+  display: block;
+  margin-left: 2px;
+}
+.area1 .keep-sighnblock {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.area1 .keep-sighnblock input {
+  position: relative;
+  left: -70px;
+}
+.area1 .keep-sighnblock .forbtn {
+  position: relative;
+  left: 18px;
+}
+.area1 .keep-sighnblock .forbtn a {
+  color: #fff;
+  text-decoration: none;
+}
+.area1 .keep-sighnblock .forbtn .btn {
+  font-size: 6px;
+  border: none;
+  background-color: #083458;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.area1 .keep-sighnblock .forbtn .btn:hover {
+  background-color: #708291;
+  cursor: pointer;
+}
+.area1 .keep-sighnblock .forbtn .btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.area1 .keep-sighnblock .logIn {
+  display: flex;
+  align-items: center;
+}
+.area1 .keep-sighnblock .logIn .btn {
+  font-size: 6px;
+  border: none;
+  background-color: #083458;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.area1 .keep-sighnblock .logIn .btn:hover {
+  background-color: #708291;
+  cursor: pointer;
+}
+.area1 .keep-sighnblock .logIn .btn a {
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */

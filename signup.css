@@ -1,0 +1,174 @@
+header {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(117, 154, 177);
+  padding: 20px;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(117, 154, 177);
+}
+
+.area1 .picblock {
+  position: relative;
+  left: -6%;
+}
+.area1 .picblock h2 {
+  text-align: center;
+}
+.area1 .picblock label {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -5%;
+}
+.area1 .picblock .emailblock {
+  height: 24px;
+  width: 24%;
+  position: relative;
+  left: 40%;
+  padding-left: 3px;
+  padding-top: 2px;
+  background-color: #fff;
+  border-left: 20%;
+  border-radius: 3px;
+}
+.area1 .picblock .emailblock .email_input {
+  position: relative;
+  left: 9px;
+}
+.area1 .picblock .emailblock .email_input .btn {
+  background-color: #fff;
+  border: none;
+}
+.area1 .picblock .emailblock .email_input .btn:hover {
+  cursor: pointer;
+  background-color: rgb(172, 168, 163);
+}
+.area1 .picblock .emailblock .email_input .btn:active {
+  scale: 0.95;
+}
+.area1 .picblock .name-pwdblock label {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -8%;
+}
+.area1 .picblock .name-pwdblock .userblock {
+  height: 24px;
+  width: 24%;
+  padding-left: 3px;
+  padding-top: 2px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 3px;
+  position: relative;
+  left: 40%;
+}
+.area1 .picblock .name-pwdblock .userblock .user_input {
+  position: absolute;
+  left: 15px;
+}
+.area1 .picblock .name-pwdblock .userblock .user_input .btn {
+  background-color: #fff;
+  border: none;
+}
+.area1 .picblock .name-pwdblock .userblock .user_input .btn:hover {
+  cursor: pointer;
+  background-color: rgb(172, 168, 163);
+}
+.area1 .picblock .name-pwdblock .userblock .user_input .btn:active {
+  scale: 0.95;
+}
+.area1 .picblock .pwdblock1 label {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -8%;
+}
+.area1 .picblock .pwdblock1 .pwdblock {
+  height: 24px;
+  width: 24%;
+  padding-left: 3px;
+  padding-top: 2px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 3px;
+  position: relative;
+  left: 40%;
+}
+.area1 .picblock .pwdblock1 .pwdblock .pwd_input {
+  position: absolute;
+  left: 15px;
+}
+.area1 .picblock .pwdblock1 .pwdblock .pwd_input .btn {
+  background-color: #fff;
+  border: none;
+}
+.area1 .picblock .pwdblock1 .pwdblock .pwd_input .btn:hover {
+  cursor: pointer;
+  background-color: rgb(172, 168, 163);
+}
+.area1 .picblock .pwdblock1 .pwdblock .pwd_input .btn:active {
+  scale: 0.95;
+}
+.area1 .picblock .pwdblock2 label {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -6%;
+}
+.area1 .picblock .pwdblock2 .pwdblock {
+  height: 24px;
+  width: 24%;
+  padding-left: 3px;
+  padding-top: 2px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 3px;
+  position: relative;
+  left: 40%;
+}
+.area1 .picblock .pwdblock2 .pwdblock .pwd_input {
+  position: absolute;
+  left: 15px;
+}
+.area1 .picblock .pwdblock2 .pwdblock .pwd_input .btn {
+  background-color: #fff;
+  border: none;
+}
+.area1 .picblock .pwdblock2 .pwdblock .pwd_input .btn:hover {
+  cursor: pointer;
+  background-color: rgb(172, 168, 163);
+}
+.area1 .picblock .pwdblock2 .pwdblock .pwd_input .btn:active {
+  scale: 0.95;
+}
+
+.area2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: -120px;
+}
+.area2 .btn {
+  background-color: #042e4f;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+.area2 .btn:hover {
+  cursor: pointer;
+  background-color: rgb(172, 168, 163);
+}
+.area2 .btn:active {
+  scale: 0.95;
+}/*# sourceMappingURL=signup.css.map */

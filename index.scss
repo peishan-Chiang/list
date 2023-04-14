@@ -1,0 +1,273 @@
+
+
+body{
+    background-color: rgb(117, 154, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; //如果固定的葉面，不用卷軸，可以下vW，鎖畫面
+    height: 100vh;//如果固定的葉面，不用卷軸，可以下vh，鎖畫面
+    margin: 0;
+}
+
+* , *::before,* ::after{//全部的i作一些範圍調整
+    box-sizing: border-box;//確保圖片向區塊內擺放，不會跑出來
+    padding: 1px;
+   
+}
+
+.area1{
+    width: 300px;
+}
+
+.area1{//用也可以用container
+        
+         width: 300px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        
+
+    .emailblock, .name-pwdblock{ 
+        .inputblock{
+            display: flex;
+            flex-direction:row;
+            background-color: #fff;
+            padding: 2px;
+            border-radius: 3px;
+            
+
+        }
+        .q {
+            position:relative;
+            left: 2px;
+        }
+        label{
+             font-size: 12px;
+        }
+        input{
+            display: block;
+            margin-left: 2px;
+        }
+    }
+    .keep-sighnblock{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input{
+            position: relative;
+            left: -70px;  
+            
+         }  
+
+    
+        .forbtn{
+                position: relative;
+                left: 18px;
+                a{
+                        color: #fff;
+                        text-decoration:none ;//不要超連結底線
+                }
+                .btn {
+                    font-size: 6px;
+                    border:none;
+                    background-color:#083458; 
+                    color: #fff;
+                    border-radius: 4px;
+                    transition: 0.5s;
+    
+                    &:hover{
+                        background-color:#708291;
+                        cursor: pointer;
+                    }
+                   
+                    a{
+                        color: #fff;
+                        text-decoration: none;
+                    }
+            }
+        }
+        .logIn{
+            display: flex;
+            align-items: center;
+            
+            .btn {
+                font-size: 6px;
+                border:none;
+                background-color:#083458; 
+                color: #fff;
+                border-radius: 4px;
+                transition: 0.5s;
+
+                &:hover{
+                    background-color:#708291;
+                    cursor: pointer;
+                }
+               
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+//         h2{
+//             text-align: center;
+//         }
+    
+       
+//         .emailblock{
+            
+//             height: 24px;
+//             width: 25%;
+//             position: relative;
+//             left: 40%;
+//             padding-left: 3px;
+//             padding-top: 2px;
+//             background-color: #fff;
+//             border-left: 20%;
+//             border-radius: 3px;
+//             .email_input{
+//                 position: relative;
+//                 left: 9px;
+//             .btn{
+//                background-color: #fff;
+//                border:none;
+//             }
+//             .btn:hover{ //游標接觸到的回應
+//                 cursor: pointer;//會有手手
+//                 background-color: rgb(172, 168, 163);
+//             }
+//             .btn:active{
+//                 scale:0.95;//點擊後縮放
+//             }
+            
+//             }
+
+//         }
+   
+    
+//         .name-pwdblock{
+        
+//             label{
+//             font-size: 15px;
+//             display: flex;
+//             justify-content: center;
+//             position: relative;
+//             left: -7%;
+
+//             }
+//             div{
+//             height: 24px;
+//             width: 25%;
+//             position: relative;
+//             left: 40%;
+//             padding-left: 3px;
+//             padding-top: 2px;
+//             background-color: #fff;
+//             border-left: 20%;
+//             display: flex;
+//             border-radius: 3px;
+            
+//                 input{
+//                 margin-top: 2px;
+//                 position: relative;
+//                 top:-2px;
+//                 left: 28px;
+               
+//                 }
+                 
+//                 .btn{
+//                     background-color: #fff;
+//                     border:none;
+//                     margin-bottom: 2px;
+//                    position: relative;
+//                     left: 32px;
+//                  }
+//                  .btn:hover{ //游標接觸到的回應
+//                      cursor: pointer;//會有手手
+//                      background-color: rgb(172, 168, 163);
+//                  }
+//                  .btn:active{
+//                      scale:0.95;//點擊後縮放
+//                  }
+
+//             }
+//         }
+
+
+      
+
+//     .log-keepsign{
+//        .keep-sighnblock{
+//         display: flex;
+//         width: 22%;
+//         height: 24px;
+//         background-color: rgb(117, 154, 177);
+//         position: relative;
+//         left: 40%;
+//        }
+//        div{
+//         label{
+//             position: relative;
+//             top:7px;
+//             left: 20px;
+//         }
+//         input{
+//             position: relative;
+//             top: -10px;
+//             left: -3px;
+//         }
+        
+
+//        }
+//        .forbtn{
+//            position: relative;
+//             top: 7px;
+//             left: 110px;
+//             a{
+//                 color: #fff;
+//             }
+//             .btn{
+//                 background-color: #9ec3e1;
+//                 border:none;                
+//                 border-radius: 3px;
+//             }
+//            .btn:hover{ //游標接觸到的回應
+//                 cursor: pointer;//會有手手
+//                 background-color: rgb(172, 168, 163);
+//             }
+//             .btn:active{
+//              scale:0.95;//點擊後縮放
+//              }
+//        }
+
+//     }
+// }
+// .area2{
+//     display: flex;
+//     justify-content: center;
+//     margin-top: 25px;
+//     margin-left: -248px;
+//     .btn{
+//         background-color: #042e4f;
+//         border:none;
+//         color: #fff;
+//         border-radius: 3px;
+//    }
+//    .btn:hover{ //游標接觸到的回應
+//         cursor: pointer;//會有手手
+//        background-color: rgb(172, 168, 163);
+//    }
+//    .btn:active{
+//     scale:0.95;//點擊後縮放
+//    }
+// }
